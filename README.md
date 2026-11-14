@@ -262,3 +262,51 @@ export default function Home() {
     </main>
   );
 }
+
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "EMPLOI NOW AI | Emploi international",
+  description:
+    "Trouvez des opportunités professionnelles partout dans le monde grâce à EMPLOI NOW AI.",
+  applicationName: "EMPLOI NOW AI",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="fr">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}
+
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "EMPLOI NOW AI | Emploi international",
+  description:
+    "Trouvez des opportunités professionnelles partout dans le monde grâce à EMPLOI NOW AI.",
+  applicationName: "EMPLOI NOW AI",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="fr">
+      <body>
+        {children}
+      </body>
+    </html>
+  );
+}
