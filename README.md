@@ -1,4 +1,12 @@
 
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
+
+export default config;
+
 {
   "name": "emploi-now-ai",
   "version": "1.0.0",
